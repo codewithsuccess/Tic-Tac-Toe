@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #3454D1; */
+    background-color: #D1345B;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1 {
+    margin-top: 5vh;
+}
+
+.container {
+    min-height: 70vmin;
+    margin-top: 10vh;
+    /* background-color: blanchedalmond; */
+}
+
+.game {
+    height: 60vh;
+    /* background-color: #581616; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+}
+
+.btn {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgb(0, 0, 0.5);
+    font-size: 8vh;
+    background-color: #EFEFEF;
+    color: #D1345B;
+    
+}
+
+#reset-btn {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 1rem;
+    color: #070707;
+    border: none;
+    background-color: #34D1BF;
+}
+
+#new-game {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 1rem;
+    color: #070707;
+    border: none;
+    background-color: #34D1BF;
+}
+#msg {
+    margin-top: 10vmin;
+    margin-bottom: 10vmin;
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+}
